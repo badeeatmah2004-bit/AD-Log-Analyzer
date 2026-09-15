@@ -1,0 +1,17 @@
+============================================================
+        ACTIVE DIRECTORY THREAT DETECTION REPORT            
+ Generated on: 2026-09-15 01:19:44
+ Environment : Kali Linux Security Platform
+============================================================
+
+[ALERT] Brute Force Attack Detected!
+ -> Target User: Administrator
+ -> Failed Attempts: 5
+ -> MITRE ATT&CK Tactic: Credential Access (TA0006)
+ -> MITRE ATT&CK Technique: Brute Force (T1110)
+------------------------------------------------------------
+[CRITICAL ALERT] Security Event Log Was Cleared!
+ -> Event ID: 1102 (Audit log cleared)
+ -> MITRE ATT&CK Tactic: Defense Evasion (TA0005)
+ -> MITRE ATT&CK Technique: Indicator Removal (T1070)
+------------------------------------------------------------
